@@ -17,8 +17,8 @@ Our assignment submission contains the following:
 
 #Description of the program:
 
-Some pointers before you proceed
-Hereafter Indian Penal Code means Chapters IV, V, VI of Indian Penal Code.
+Some pointers before you proceed:
+Here after Indian Penal Code means Chapters IV, V, VI of Indian Penal Code.
 The word 'Act' denotes as well as series of acts as a single act: which is criminal by reason of its being done with a criminal knowledge or intention.
 
 ********************************************************************************************************
@@ -100,7 +100,7 @@ This prints the definition of criminal conspiracy.
 
 This prints names and crimes done by all the criminal public servants.
 >Who are all criminal public servants?
-===========================================================================
+
 
 
 Although we have attempted to debug the code as far as possible, the extensive nature of the codebase makes it difficult for us to do it exhaustively. We apologise for any unchecked bugs that you may encounter.
