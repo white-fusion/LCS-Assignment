@@ -11,9 +11,9 @@ Two member team: Implemented Sections 4-6 of the IPC.
 ##Submission contents:
 Our assignment submission contains the following:
 
-1.README.md
-2.test input.txt
-3.assignment.pl
+1. README.md
+2. test input.txt
+3. assignment.pl
 
 #Description of the program:
 
