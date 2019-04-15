@@ -1,0 +1,185 @@
+?-sectionsDescription.
+
+76
+'Act done being bound by law'
+76
+'Act done by mistake of fact believing himself bound by law'
+77
+'Act done when acting judicially'
+78
+'Act done pursuant to judgement of Court'
+79
+'Act done being justified by law'
+79
+'Act done by mistake of fact believing himself justified by law'
+80
+'Act done accidentally doing a lawful act'
+81
+'Act done to prevent other harm without criminal intent'
+82
+'Act done being a child under seven years of age'
+83
+'Act done being a child above seven and under twelve of immature understanding'
+84
+'Act done with an unsound mind'
+85
+'Act done being incapable of judgement by reason of intoxification caused against his will'
+87
+'Act done by consent, not intended to be likely to cause death or grievous death'
+88
+'Act done by concern and good faith for persons benifit, not intended to cause death'
+89
+'Act done in good faith for benifit of child being guardian'
+89
+'Act done in good faith for benifit of child with the concern of guardian'
+90
+'Giving the consent to an act, under fear or misconception'
+90
+'Giving the consent to an act, being an insane person'
+90
+'Giving the consent to an act, being a child'
+92
+'Act done in good faith for benifint of a person without consent'
+93
+'Communication done in good faith, which is likely to cause harm'
+94
+'Act done, being compelled by threats'
+95
+'Act causing slight harm'
+96
+'Act done in private defense'
+97
+'Act done in private defense of body'
+97
+'Act done in private defense of property'
+98
+'Act done against the act of a person of unsound mind'
+100
+'Causing death to someone, exercising the right to private defense of the body'
+101
+'Causing harm other than death to someone, exercising the right to private defense of the body'
+103
+'Causing death to someone, exercising the right to private defence of the property'
+104
+'Causing harm other than death to someone, exercising the right to private defence of the property'
+106
+'Act done against deadly assault when there is risk of harm to innocent person'
+107
+'Abetment of an act'
+108
+'Abetment in India of offences outside India'
+109
+'Abetment of an act, where no express provision is made for its punishment'
+110
+'Abetment of an act, which further has been done with different intention'
+111
+'Abetment of an act, which further has been done differently'
+115
+'Abetment of offence punishable with death'
+116
+'Abetment of offence punishable with imprisonment'
+117
+'Abetting commission of offence by more than ten persons'
+118
+'Concealing design to commit offence punishable with death or imprisonment for life'
+120
+'Concealing design to commit offence punishable with imprisonment'
+121
+'Waging to wage war against the Government of India'
+121
+'Attempting to wage war against the Government of India'
+121
+'Abetting waging of war against the Government of India'
+122
+'Collecting arms,etc., with intention of waging war against the Government of India'
+123
+'Concealing with intent to facilitate design to wage war'
+124
+'Assaulting President with intent to compel the exercise of any lawful power'
+124
+'Assaulting Governor with intent to compel the exercise of any lawful power'
+125
+'Waging war against any Asiatic power in alliance with the Government of India'
+126
+'Committing depredation on territories of power at peace with the Government of India'
+127
+'Receiving property taken by war or depredation mentioned in sections 125 and 126'
+128
+'Voluntarily allowing prisoner of State to escape'
+128
+'Voluntarily allowing prisoner of war to escape'
+129
+'Negligently suffering prisoner of State to escape'
+129
+'Negligently suffering prisoner of war to escape'
+130
+'Aiding escape of,Rescuing prisoner of State'
+130
+'Aiding escape of,Rescuing prisoner of war'
+false.
+
+================================================================================
+
+?-section(76).
+
+'Act done being bound by law'
+'Act done by mistake of fact believing himself bound by law'
+false.
+
+================================================================================
+
+?-section(122).
+
+'Collecting arms,etc., with intention of waging war against the Government of India'
+true.
+
+=================================================================================
+?-canTheCrimeBeExempted('Dennis Boyd').
+
+This person can be exempted through section 84
+true
+
+================================================================================
+
+?-canTheCrimeBeExempted('Lil Wayne').
+
+false.
+
+================================================================================
+
+?-crime('Meenakshi').
+
+'Act done in private defense of body'
+true.
+
+=================================================================================
+
+?-crime('Pranav').
+
+false.
+
+================================================================================
+
+?-criminalConspiracy.
+
+When two or more persons agree to do, or cause to be done
+(1)an illegal act,
+(2)or an act which is not illegal by illegal means, such an agreement is designated a criminal conspiracy
+true.
+
+================================================================================
+
+?-criminalPublicServants.
+
+'Ram Joseph'
+'Voluntarily allowing prisoner of State to escape'
+'Eisenhower'
+'Negligently suffering prisoner of war to escape'
+false.
+
+================================================================================
+
+
+
+
+ 
