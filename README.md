@@ -1,23 +1,23 @@
-# Logic in Computer Science(CSF214) Assignment
+# Logic in Computer Science(CS F214) Assignment
 
-## Team:
+#### Team:
 
 - Yaswanth Kumar Rayapati(2017A7PS0038P)
 - Shiva Kumar Katta(2017A7PS0078P)
 
-## Task: 
+#### Task: 
 Laws in Indian Penal Code (IPC) are to be encoded in Prolog (as facts and rules).
 Write a Prolog program to interpret / apply laws for a given case given a set of laws. 
 Two member team: Implemented Sections 4-6 of the IPC.
 
-## Submission contents:
+#### Submission contents:
 Our assignment submission contains the following:
 
 1. README.md
 2. test input.txt
 3. assignment.pl
 
-## Description of the program:
+#### Description of the program:
 
 Some pointers before you proceed:
 Here after Indian Penal Code means Chapters IV, V, VI of Indian Penal Code.
