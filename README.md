@@ -15,15 +15,15 @@ Our assignment submission contains the following:
 2. test input.txt
 3. assignment.pl
 
-#Description of the program:
+##Description of the program:
 
 Some pointers before you proceed:
 Here after Indian Penal Code means Chapters IV, V, VI of Indian Penal Code.
 The word 'Act' denotes as well as series of acts as a single act: which is criminal by reason of its being done with a criminal knowledge or intention.
 
 ********************************************************************************************************
-Database Description
-********************************************************************************************************
+###Database Description
+
 
 - criminal(Name,Crime).
 
@@ -64,8 +64,8 @@ This predicate is used to store the database of sections pertaining to the acts 
 
 
 ********************************************************************************************************
-Queries Description
-********************************************************************************************************
+###Queries Description
+
 
 - sectionsDescription.
 
